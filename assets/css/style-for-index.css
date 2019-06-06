@@ -50,7 +50,10 @@ img {
 footer {
     text-align: center;
     color: #ffffff;
-    background-color: #777777
+    background-color: #777777;
     border-top: 8px solid #4aaaa5;
     float: bottom;
+    width: 1333px;
+    height: 70px;
+    
 }
