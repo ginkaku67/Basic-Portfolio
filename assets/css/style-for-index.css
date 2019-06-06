@@ -1,5 +1,13 @@
 body {
+    background-image: url(https://mitchellfauxleathers.com/sf-images/default-source/grand-slam---billiards/billiards-obsidian-vinyl-material.jpg?sfvrsn=c168ef25_4);
+    background-repeat: repeat;
+}
+#top {
+    background-color: antiquewhite;
 
+}
+#middle-bit {
+    width: 960px;
 }
 heading
  {
