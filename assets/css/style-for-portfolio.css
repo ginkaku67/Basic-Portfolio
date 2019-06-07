@@ -10,15 +10,56 @@ body {
 a {
     float: right;
     width: 75px;
+    font-size: 25px;
+    padding: 15px;
 }
 a:hover {
     color: burlywood;
+}
 
 #middle-bit {
     width: 960px;
     background-color: #ffffff;
     border: 15px green;
     align-content: center;
-    margin: 186.5px;
-    padding: 30px;
+    margin-left: 186.5px;
+    margin-right: 185.5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 25px;
 }
+img {
+    margin: 15px;
+}
+heading {
+    background-color:#4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    align-content: center;
+    font-size: 45px;
+    margin-left: 200px;
+    padding: 0px;
+}
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
+    float: bottom;
+    width: 100%;
+    height: 70px;
+    size: 30px;
+}
+#box1 #box2 #box3 #box4 #box5   {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+#box1 #box2 #box3 #box4 #box5 .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
