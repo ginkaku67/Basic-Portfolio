@@ -53,16 +53,18 @@ footer {
 #box1, #box2, #box3, #box4, #box5   {
     position: relative;
     display: inline-block;
+    padding-bottom: 20px;
+
 }
 .text    {
-    position: sticky;
     z-index: 999;
+    position: absolute;
     margin: 0 auto;
     left: 0;
     right: 0;
     top: 170px; 
     text-align: center;
-    width: 100%;
+    width: 93.3%;
     background-color:  #4aaaa5;
     /*I'm honestly at a loss to figure out how to put the text on top of the image. I will be attending office hours tomorrow to attempt to get this issue resolved, but will be submitting now so I do not forget to. */
 }
