@@ -20,7 +20,7 @@ a:hover {
 #middle-bit {
     width: 960px;
     background-color: #ffffff;
-    border: 15px green;
+    border: 15px;
     align-content: center;
     margin-left: 186.5px;
     margin-right: 185.5px;
@@ -50,16 +50,19 @@ footer {
     height: 70px;
     size: 30px;
 }
-#box1 #box2 #box3 #box4 #box5   {
+#box1, #box2, #box3, #box4, #box5   {
     position: relative;
-    display: inline-block; /* Make the width of box same as image */
+    display: inline-block;
 }
-#box1 #box2 #box3 #box4 #box5 .text{
-    position: absolute;
+.text    {
+    position: sticky;
     z-index: 999;
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 40%; /* Adjust this value to move the positioned div up and down */
+    top: 170px; 
     text-align: center;
-    width: 60%; /* Set the width of the positioned div */
+    width: 100%;
+    background-color:  #4aaaa5;
+    /*I'm honestly at a loss to figure out how to put the text on top of the image. I will be attending office hours tomorrow to attempt to get this issue resolved, but will be submitting now so I do not forget to. */
+}
